@@ -8,7 +8,7 @@ public class Main {
             Bonus = 0;
             TotalAmount = CurrentAmount + ReplenishmentAmount;
         } else {
-            Bonus =ReplenishmentAmount / 100;
+            Bonus = ReplenishmentAmount / 100;
             TotalAmount = CurrentAmount + ReplenishmentAmount + Bonus;
         }
         System.out.println(Bonus);
